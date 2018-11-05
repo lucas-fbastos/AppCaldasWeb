@@ -1,0 +1,109 @@
+
+		body{
+			margin: 0;
+		}
+		
+		.jumbotron{
+			height: 176px;
+		}
+		.titleB{
+			font-size: 104px;
+			font-style: italic;
+		}
+	    .titleX{
+			font-size: 160px;
+			font-style: italic;
+			 margin-top:-20%;
+		}
+	     @media all and (max-width: 550px){.titleX{font-size: 100px; margin-top:-20%}}
+		.titleM{
+			font-size: 84px;
+			font-style: italic;
+		}	
+		.titleMenu{
+			color: #13d5ef;
+			font-size: 54px;
+			font-style: italic;
+		}
+		.titleP{
+			font-size: 24px;
+			font-style: italic;
+		}	
+		.titleS, .titleMenu, .titleB, .tittleP, .titleM,.titleX{
+			font-family: 'Amatic SC', cursive;
+		}
+		/*.card-s:hover {*/
+    
+  /*  		box-shadow: 0 8px 8px 0 rgba(0, 100, 150, 0.9), 10px 8px 10px 0 rgba(0, 0, 0, 0.19);*/
+    	
+		/*}*/
+		footer{
+			margin-top: 50px
+		}
+		.legendaMenu{background-color: rgba(0,0,0,0.2);
+			font-family: 'Open Sans Condensed';
+			font-weight: bold;
+		 	color: white;
+		  	padding: 10px;
+			border-radius: 25px;
+		}
+		.legendaCard{background-color: rgba(0,0,0,0.2);
+			font-family: 'Open Sans Condensed';
+			font-weight: bold;
+		 	color: white;
+		 	border-radius: 50px;
+		 	
+		}
+		.anuncios{
+			margin-top: 40px;
+		}
+		
+		.card{
+			margin: 10px;
+			
+		}
+		.anuncio{
+		    border-radius: 100px;
+		}
+		.anuncio:hover{
+			box-shadow: 0 8px 8px 0 rgba(0, 100, 150, 0.9), 10px 8px 10px 0 rgba(0, 0, 0, 0.19);
+			
+		}
+		.anuncioT{
+			color: white;
+		}
+		.anuncioI{
+			max-height: 230px;
+		}
+	    .anuncioC{
+	       color: black;
+	       text-decoration: none;
+	    }
+	    .carousel-item {
+          background: no-repeat center center scroll;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+        }
+		.nomeC{margin-top: 0px; }
+		.nomeC:hover{padding:10px;}
+		img[src="https://cdn.rawgit.com/000webhost/logo/e9bd13f7/footer-powered-by-000webhost-white2.png"]{
+        display:none;
+		}
+        .botoes{
+		    position: static;
+		}
+         @media (max-width: 500px) {
+		   .botoes{
+		       position: relative;
+		       margin-top: 100px ;
+		   }
+         }
+		 .item{
+		     margin-bottom: 30px;
+		 }
+	    .linkA{
+            text-decoration: none;
+		   }
+		  
